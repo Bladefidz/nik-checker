@@ -7,7 +7,7 @@ $client = new Client();
 
 $css = "#theForm > div.fboxbody > div.form > span";
 $baseURL = "http://data.kpu.go.id/ss8.php?cmd=cari&nik=";
-$nik = '3520082506930001';
+$nik = 'hereniktocheck';
 
 $resultArr = array();
 $crawler = $client->request('GET', $baseURL.$nik);
